@@ -1,0 +1,8 @@
+list:   !include &list   list.yaml
+map:    !include &map    map.yaml
+string: !include &string string.yaml
+
+complex:
+  l: *list
+  m: *map
+  s: *string
