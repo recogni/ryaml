@@ -1,4 +1,4 @@
-# yaml
+# ryaml
 
 A `yaml.Loader` implementation that supports including external yaml files
 
